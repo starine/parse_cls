@@ -1,0 +1,17 @@
+//题目没有指定打印格式，本程序使用如下格式输出
+
+DEFINE:
+NAME		    VALUE
+IDLength	    10
+NameLength 	    20
+
+OBJECT:
+objA:
+ELEMENT		    TYPE		    LENGTH
+szName		    C			    20
+szRdfID		    C,Key		    10
+nID			    I			    2
+
+objB:
+ELEMENT		    TYPE		    LENGTH
+szName		    C			    1
